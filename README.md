@@ -1,1 +1,1 @@
-# currency-converter
+открыть папку и запустить index.html

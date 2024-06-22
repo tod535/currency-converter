@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Конвертер валют</h1>
+        <form>
+            <label for="from">От:</label>
+            <select id="from" class="select">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="RUB">RUB</option>
+            </select>
+            <label for="to">Куда:</label>
+            <select id="to" class="select">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="RUB">RUB</option>
+            </select>
+            <label for="amount">Сумма:</label>
+            <input type="text" id="amount" class="input" />
+            <button type="button" id="convert" class="button">Конвертировать</button>
+            <p id="result" class="result"></p>
+            <!DOCTYPE html>
+<html>
+<head>
+    <title>Текущие курсы валют</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Текущие курсы валют</h1>
+    <p>Базовая валюта: RUB</p>
+    <ul id="list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
